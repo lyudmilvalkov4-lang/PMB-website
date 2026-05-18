@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 240" role="img" aria-labelledby="title desc">
+  <title id="title">Polysan PS logo</title>
+  <desc id="desc">Transparent Polysan logo with a blue slanted P and white PS linework.</desc>
+  <defs>
+    <linearGradient id="polysanBlue" x1="82" y1="20" x2="154" y2="221" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#77b8ff"/>
+      <stop offset="0.48" stop-color="#3887ef"/>
+      <stop offset="1" stop-color="#1b5dbb"/>
+    </linearGradient>
+    <linearGradient id="polysanEdge" x1="48" y1="54" x2="70" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b74d8"/>
+      <stop offset="1" stop-color="#124995"/>
+    </linearGradient>
+    <filter id="polysanShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#06213f" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#polysanShadow)">
+    <path
+      d="M49 222 93 22h104c46 0 77 30 77 74 0 48-36 82-91 82h-55l-12 44Z"
+      fill="url(#polysanEdge)"
+    />
+    <path
+      d="M64 213 108 13h104c46 0 77 30 77 74 0 48-36 82-91 82h-55l-12 44Z"
+      fill="url(#polysanBlue)"
+    />
+
+    <path
+      d="M75 195 112 40h88c31 0 52 18 52 45s-21 46-54 46h-69"
+      fill="none"
+      stroke="#fff"
+      stroke-width="17"
+      stroke-linecap="square"
+      stroke-linejoin="round"
+    />
+
+    <path
+      d="M139 73h56c15 0 25 7 25 18s-10 18-25 18h-60"
+      fill="none"
+      stroke="#3887ef"
+      stroke-width="15"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <path
+      d="M125 144h50c17 0 28 9 28 23 0 15-12 24-31 24h-58"
+      fill="none"
+      stroke="#fff"
+      stroke-width="15"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <path
+      d="M136 163h35c8 0 13 4 13 10 0 7-6 10-16 10h-45"
+      fill="none"
+      stroke="#3887ef"
+      stroke-width="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>
